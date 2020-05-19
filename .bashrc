@@ -109,6 +109,9 @@ alias l='ls -CF'
 alias em='emacs -nw'
 alias dd='dd status=progress'
 alias _='sudo'
+alias au='sudo apt update'
+alias al='sudo apt list --upgradable'
+alias aup='sudo apt upgrade -y'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
