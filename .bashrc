@@ -113,6 +113,9 @@ alias au='sudo apt update'
 alias al='sudo apt list --upgradable'
 alias aup='sudo apt upgrade -y'
 
+#ssh agen
+alias ssha='eval $(ssh-agent) && ssh-add'
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
