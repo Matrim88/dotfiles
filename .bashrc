@@ -112,6 +112,8 @@ alias _='sudo'
 alias au='sudo apt update'
 alias al='sudo apt list --upgradable'
 alias aup='sudo apt upgrade -y'
+alias ar='sudo apt autoremove'
+alias ac='sudo apt autoclean'
 
 #ssh agen
 alias ssha='eval $(ssh-agent) && ssh-add'
